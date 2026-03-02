@@ -22,7 +22,9 @@ const HeroSection = () => {
 
           <div className="flex flex-wrap items-center gap-4 justify-center md:justify-start opacity-0 animate-fade-up" style={{ animationDelay: "0.5s" }}>
             <a
-              href="#"
+              href="/Vikash_AR_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:opacity-90 transition-opacity"
             >
               <Download size={18} />
